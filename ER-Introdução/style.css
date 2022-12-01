@@ -24,6 +24,15 @@ h1{
     margin-bottom: 32px;
 }
 
+#line {
+    width: 568px;
+    height: 0;
+
+    margin: 0 auto 8px;
+
+    border: 1px orange solid;
+}
+
 H1 span {
     font-weight: bold;
 }
@@ -33,7 +42,7 @@ span, a {
     color: #ff9900d7;
 }
 
-p {
+p, #footer {
     color: #7D7987;
     font-size: 14px;
     line-height: 28px;
@@ -41,4 +50,8 @@ p {
 
 #footer a + a {
     margin-left: 28px;
+}
+
+#balls {
+    position: fixed;
 }
